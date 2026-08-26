@@ -112,7 +112,25 @@
     "break",
     {
       "type": "custom",
-      "format": "\u001b[33m┌──────────────────────Holdings──────────────────────┐"
+      "format": "\u001b[33m┌───────────────────Family office────────────────────┐"
+    },
+    {
+      "type": "command",
+      "key": "󰠓 AUM",
+      "keyColor": "yellow",
+      "text": "echo '$10,000,000'"
+    },
+    {
+      "type": "command",
+      "key": "󰀶 LPs",
+      "keyColor": "yellow",
+      "text": "echo '10 founding · $1m minimum'"
+    },
+    {
+      "type": "command",
+      "key": "󰒃 Seat",
+      "keyColor": "yellow",
+      "text": "echo 'not for sale'"
     },
     {
       "type": "command",
@@ -121,19 +139,13 @@
       "text": "echo \"It's pronounced Oligaachy, btw\""
     },
     {
-      "type": "command",
-      "key": "󰀶 Patrons",
-      "keyColor": "yellow",
-      "text": "echo '10 founding, $1m each'"
-    },
-    {
       "type": "uptime",
-      "key": "󱫐 Uptime",
+      "key": "󱫐 Time in market",
       "keyColor": "yellow"
     },
     {
       "type": "command",
-      "key": " Update",
+      "key": "󰁦 Statement",
       "keyColor": "yellow",
       "text": "updated=$(omarchy-version-pkgs); echo \"$updated\""
     },
