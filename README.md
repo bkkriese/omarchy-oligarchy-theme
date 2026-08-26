@@ -90,12 +90,6 @@ It's pronounced Oligaachy, btw.
 
 ![11-pronounced](backgrounds/11-pronounced.png)
 
-### 12 — Ryan chains
-
-Same crew, Ryan stacked in extra gold.
-
-![12-crew-ryan-chains](backgrounds/12-crew-ryan-chains.jpg)
-
 ### 13 — Crowns
 
 Garish jewelled crowns.
