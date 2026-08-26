@@ -1,0 +1,11 @@
+# Workshop only — not part of the installable theme
+refs/
+liner-notes/
+scripts/
+prototypes/
+theme/
+.preview-state
+SHIP.txt
+compare-*
+*.bak
+.DS_Store
