@@ -1,0 +1,146 @@
+{
+  // oligarchy-fastfetch
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "file",
+    "source": "~/.config/omarchy/branding/about.txt",
+    "color": { "1": "yellow" },
+    "padding": {
+      "top": 2,
+      "right": 6,
+      "left": 2
+    }
+  },
+  "display": {
+    "disableLinewrap": true
+  },
+  "modules": [
+    "break",
+    "break",
+    {
+      "type": "custom",
+      "format": "\u001b[33m┌──────────────────────Hardware──────────────────────┐"
+    },
+    {
+      "type": "host",
+      "key": " PC",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "cpu",
+      "key": "│ ├",
+      "showPeCoreCount": true,
+      "keyColor": "yellow"
+    },
+    {
+      "type": "gpu",
+      "key": "│ ├",
+      "detectionMethod": "pci",
+      "format": "{name}",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "display",
+      "key": "│ ├󱄄",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "disk",
+      "key": "│ ├󰋊",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "memory",
+      "key": "│ ├",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "swap",
+      "key": "└ └󰓡 ",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[33m└────────────────────────────────────────────────────┘"
+    },
+    "break",
+    {
+      "type": "custom",
+      "format": "\u001b[33m┌──────────────────────Software──────────────────────┐"
+    },
+    {
+      "type": "command",
+      "key": "\ue900 OS",
+      "keyColor": "yellow",
+      "text": "version=$(omarchy-version) && echo \"Oligarchy $version\""
+    },
+    {
+      "type": "kernel",
+      "key": "│ ├",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "wm",
+      "key": "│ ├",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "terminal",
+      "key": "│ ├",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "packages",
+      "key": "│ ├󰏖",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "command",
+      "key": "│ ├󰸌",
+      "keyColor": "yellow",
+      "text": "theme=$(omarchy-theme-current); echo -e \"$theme \\e[33m●\\e[37m●\\e[36m●\\e[35m●\\e[34m●\\e[33m●\\e[32m●\\e[31m●\""
+    },
+    {
+      "type": "terminalfont",
+      "key": "└ └",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[33m└────────────────────────────────────────────────────┘"
+    },
+    "break",
+    {
+      "type": "custom",
+      "format": "\u001b[33m┌──────────────────────Holdings──────────────────────┐"
+    },
+    {
+      "type": "command",
+      "key": "󰔅 AKA",
+      "keyColor": "yellow",
+      "text": "echo \"It's pronounced Oligaachy, btw\""
+    },
+    {
+      "type": "command",
+      "key": "󰀶 Patrons",
+      "keyColor": "yellow",
+      "text": "echo '10 founding, $1m each'"
+    },
+    {
+      "type": "uptime",
+      "key": "󱫐 Uptime",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "command",
+      "key": " Update",
+      "keyColor": "yellow",
+      "text": "updated=$(omarchy-version-pkgs); echo \"$updated\""
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[33m└────────────────────────────────────────────────────┘"
+    },
+    "break"
+  ]
+}
