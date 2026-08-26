@@ -14,11 +14,9 @@ Wallpaper is the punchline. The desktop is a Rolex.
 
 ```bash
 omarchy theme install https://github.com/bkkriese/omarchy-oligarchy-theme.git
-omarchy hook install theme-set ~/.config/omarchy/themes/oligarchy/hooks/theme-set-about.sh
-omarchy theme set oligarchy
 ```
 
-Omarchy applies colors, icons, and wallpapers from the theme. About is machine branding, not a theme slot, so the hook is what includes the crown splash: it comes on with Oligarchy and the default comes back when you leave.
+That clones into `~/.config/omarchy/themes/oligarchy` and applies it.
 
 Later:
 
@@ -27,12 +25,6 @@ omarchy theme set oligarchy
 ```
 
 Cycle backgrounds with `Super + Ctrl + Space`, or `omarchy theme bg next`.
-
-## About
-
-That's fastfetch — Omarchy's About screen. Hardware and software stay real. The rest is the joke.
-
-![Oligarchy About](screenshots/04-about.jpg)
 
 ## Backgrounds
 
