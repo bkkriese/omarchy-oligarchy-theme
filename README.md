@@ -90,12 +90,6 @@ It's pronounced Oligaachy, btw.
 
 ![11-pronounced](backgrounds/11-pronounced.png)
 
-### 13 — Crowns
-
-Garish jewelled crowns.
-
-![13-crew-crowns](backgrounds/13-crew-crowns.jpg)
-
 ### 14 — Napoleon
 
 DHH crowning himself. Tobi and Ryan as the court.
