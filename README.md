@@ -8,7 +8,7 @@ Wallpaper is the punchline. The desktop is a Rolex.
 
 > Elite capital. Public code.
 
-![Oligarchy](preview.png)
+![Oligarchy on the desktop](screenshots/03-rice.jpg)
 
 ## Install
 
@@ -28,20 +28,77 @@ Cycle backgrounds with `Super + Ctrl + Space`, or `omarchy theme bg next`.
 
 ## Backgrounds
 
-| File | |
-| --- | --- |
-| `01-quattro-gilded.jpg` | Daily driver. Black-and-gold jumping Quattro. |
-| `02-quattro-pimped.jpg` | Gold Quattro, whitewalls, Cuban chain on the grille. |
-| `03-stag-swirl.jpg` | The Omarchy stag, champagne swirl. |
-| `04-crew-trio.jpg` | Run-D.H.H. Tobi, DHH, Ryan. |
-| `05-winding-gold.jpg` | Winding road at gold hour. The stag is still on the ridge. |
-| `07-luxury-macro.jpg` | Chain, diamond Rolex, Audi-rings medallion. |
-| `08-gold-forest.jpg` | Dark pines, one shaft of champagne light. |
-| `10-liner-notes.png` | Credits. A–Z by last name in every column. |
-| `11-pronounced.png` | It's pronounced Oligaachy, btw. |
-| `12-crew-ryan-chains.jpg` | Same crew, Ryan stacked in extra gold. |
-| `13-crew-crowns.jpg` | Garish jewelled crowns. |
-| `14-crew-napoleon.jpg` | DHH crowning himself. Tobi and Ryan as the court. |
+### 01 — Quattro gilded
+
+Daily driver. Black-and-gold jumping Quattro.
+
+![01-quattro-gilded](backgrounds/01-quattro-gilded.jpg)
+
+### 02 — Quattro pimped
+
+Gold Quattro, whitewalls, Cuban chain on the grille.
+
+![02-quattro-pimped](backgrounds/02-quattro-pimped.jpg)
+
+### 03 — Stag swirl
+
+The Omarchy stag, champagne swirl.
+
+![03-stag-swirl](backgrounds/03-stag-swirl.jpg)
+
+### 04 — Crew trio
+
+Run-D.H.H. Tobi, DHH, Ryan.
+
+![04-crew-trio](backgrounds/04-crew-trio.jpg)
+
+### 05 — Winding gold
+
+Winding road at gold hour. The stag is still on the ridge.
+
+![05-winding-gold](backgrounds/05-winding-gold.jpg)
+
+### 07 — Luxury macro
+
+Chain, diamond Rolex, Audi-rings medallion.
+
+![07-luxury-macro](backgrounds/07-luxury-macro.jpg)
+
+### 08 — Gold forest
+
+Dark pines, one shaft of champagne light.
+
+![08-gold-forest](backgrounds/08-gold-forest.jpg)
+
+### 10 — Liner notes
+
+Credits. A–Z by last name in every column.
+
+![10-liner-notes](backgrounds/10-liner-notes.png)
+
+### 11 — Pronounced
+
+It's pronounced Oligaachy, btw.
+
+![11-pronounced](backgrounds/11-pronounced.png)
+
+### 12 — Ryan chains
+
+Same crew, Ryan stacked in extra gold.
+
+![12-crew-ryan-chains](backgrounds/12-crew-ryan-chains.jpg)
+
+### 13 — Crowns
+
+Garish jewelled crowns.
+
+![13-crew-crowns](backgrounds/13-crew-crowns.jpg)
+
+### 14 — Napoleon
+
+DHH crowning himself. Tobi and Ryan as the court.
+
+![14-crew-napoleon](backgrounds/14-crew-napoleon.jpg)
 
 ## Palette
 

@@ -9,3 +9,5 @@ SHIP.txt
 compare-*
 *.bak
 .DS_Store
+screenshots/*
+!screenshots/03-rice.jpg
