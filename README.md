@@ -8,15 +8,23 @@ Wallpaper is the punchline. The desktop is a Rolex.
 
 > Elite capital. Public code.
 
-![Oligarchy on the desktop](screenshots/03-rice.jpg)
+![Oligarchy on the desktop](screenshots/desktop.png)
+
+## Unlock screen
+
+![Oligarchy unlock screen](preview-unlock.png)
 
 ## Install
 
 ```bash
 omarchy theme install https://github.com/bkkriese/omarchy-oligarchy-theme.git
+omarchy hook install theme-set ~/.config/omarchy/themes/oligarchy/hooks/theme-set-about.sh
+omarchy theme set oligarchy
 ```
 
-That clones into `~/.config/omarchy/themes/oligarchy` and applies it.
+Omarchy applies the theme's colors, icons, and wallpapers. About is machine
+branding, so the hook installs the Oligarchy Fastfetch splash when this theme
+is selected and restores the previous branding when you leave it.
 
 Later:
 
@@ -28,65 +36,59 @@ Cycle backgrounds with `Super + Ctrl + Space`, or `omarchy theme bg next`.
 
 ## Backgrounds
 
-### 01 — Quattro gilded
+### 01 — Oligarchy Quattro
 
-Daily driver. Black-and-gold jumping Quattro.
+Black-and-gold Quattro. The daily driver.
 
-![01-quattro-gilded](backgrounds/01-quattro-gilded.jpg)
+![01-oligarchy-quattro](backgrounds/01-oligarchy-quattro.jpg)
 
-### 02 — Quattro pimped
+### 02 — Oligarchy pimped
 
 Gold Quattro, whitewalls, Cuban chain on the grille.
 
-![02-quattro-pimped](backgrounds/02-quattro-pimped.jpg)
+![02-oligarchy-pimped](backgrounds/02-oligarchy-pimped.jpg)
 
-### 03 — Stag swirl
+### 03 — Oligarchy mesh
+
+The monogram in a field of champagne-gold geometry.
+
+![03-oligarchy-mesh](backgrounds/03-oligarchy-mesh.jpg)
+
+### 04 — Stag swirl
 
 The Omarchy stag, champagne swirl.
 
-![03-stag-swirl](backgrounds/03-stag-swirl.jpg)
+![04-stag-swirl](backgrounds/04-stag-swirl.jpg)
 
-### 04 — Crew trio
-
-Run-D.H.H. Tobi, DHH, Ryan.
-
-![04-crew-trio](backgrounds/04-crew-trio.jpg)
-
-### 05 — Winding gold
-
-Winding road at gold hour. The stag is still on the ridge.
-
-![05-winding-gold](backgrounds/05-winding-gold.jpg)
-
-### 07 — Luxury macro
-
-Chain, diamond Rolex, Audi-rings medallion.
-
-![07-luxury-macro](backgrounds/07-luxury-macro.jpg)
-
-### 08 — Gold forest
+### 05 — Gold forest
 
 Dark pines, one shaft of champagne light.
 
-![08-gold-forest](backgrounds/08-gold-forest.jpg)
+![05-gold-forest](backgrounds/05-gold-forest.jpg)
 
-### 10 — Liner notes
-
-Credits. A–Z by last name in every column.
-
-![10-liner-notes](backgrounds/10-liner-notes.png)
-
-### 11 — Pronounced
+### 06 — Pronounced
 
 It's pronounced Oligaachy, btw.
 
-![11-pronounced](backgrounds/11-pronounced.png)
+![06-pronounced](backgrounds/06-pronounced.jpg)
 
-### 14 — Napoleon
+### 07 — Liner notes
+
+Credits. A–Z by last name in every column.
+
+![07-liner-notes](backgrounds/07-liner-notes.png)
+
+### 08 — Crew trio
+
+Run-D.H.H. Tobi, DHH, Ryan.
+
+![08-crew-trio](backgrounds/08-crew-trio.jpg)
+
+### 09 — Crew Napoleon
 
 DHH crowning himself. Tobi and Ryan as the court.
 
-![14-crew-napoleon](backgrounds/14-crew-napoleon.jpg)
+![09-crew-napoleon](backgrounds/09-crew-napoleon.jpg)
 
 ## Palette
 
