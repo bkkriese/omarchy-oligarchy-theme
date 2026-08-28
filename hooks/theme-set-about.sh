@@ -6,8 +6,8 @@
 # fastfetch config is a machine override). This hook is the include path.
 #
 # Install with:
-#   omarchy hook install theme-set ~/.config/omarchy/themes/oligarchy/hooks/theme-set-about.sh
-#   omarchy theme set oligarchy
+#   omarchy hook install theme-set ~/.config/omarchy/themes/oligarchy-dark/hooks/theme-set-about.sh
+#   omarchy theme set oligarchy-dark
 
 set -euo pipefail
 

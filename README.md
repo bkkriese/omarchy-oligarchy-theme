@@ -1,6 +1,6 @@
-# Oligarchy
+# Oligarchy Dark
 
-An [Omarchy](https://omarchy.org/) theme.
+A dark [Omarchy](https://omarchy.org/) theme.
 
 Black studio. Champagne gold. Ivory type.
 
@@ -8,18 +8,18 @@ Wallpaper is the punchline. The desktop is a Rolex.
 
 > Elite capital. Public code.
 
-![Oligarchy on the desktop](screenshots/desktop.png)
+![Oligarchy Dark on the desktop](screenshots/desktop.png)
 
 ## Unlock screen
 
-![Oligarchy unlock screen](preview-unlock.png)
+![Oligarchy Dark unlock screen](preview-unlock.png)
 
 ## Install
 
 ```bash
-omarchy theme install https://github.com/bkkriese/omarchy-oligarchy-theme.git
-omarchy hook install theme-set ~/.config/omarchy/themes/oligarchy/hooks/theme-set-about.sh
-omarchy theme set oligarchy
+omarchy theme install https://github.com/bkkriese/omarchy-oligarchy-dark-theme.git
+omarchy hook install theme-set ~/.config/omarchy/themes/oligarchy-dark/hooks/theme-set-about.sh
+omarchy theme set oligarchy-dark
 ```
 
 Omarchy applies the theme's colors, icons, and wallpapers. About is machine
@@ -29,7 +29,8 @@ is selected and restores the previous branding when you leave it.
 Later:
 
 ```bash
-omarchy theme set oligarchy
+omarchy theme set oligarchy-dark
+omarchy theme set oligarchy-light
 ```
 
 Cycle backgrounds with `Super + Ctrl + Space`, or `omarchy theme bg next`.
