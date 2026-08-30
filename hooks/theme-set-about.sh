@@ -26,7 +26,7 @@ is_our_fetch() {
 }
 
 is_our_about() {
-  [[ -f $1 ]] && grep -q "OLIGARCHY" "$1"
+  [[ -f $1 ]] && grep -qE "O[[:space:]]*L[[:space:]]*I[[:space:]]*G[[:space:]]*A[[:space:]]*R[[:space:]]*C[[:space:]]*H[[:space:]]*Y" "$1"
 }
 
 theme_ships_about() {
